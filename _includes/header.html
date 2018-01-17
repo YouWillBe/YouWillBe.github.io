@@ -1,0 +1,11 @@
+<header>
+    <a href="{{site.url}}" class="header-title-container" title="index">
+        <div class="header-title">{{ site.title | default: site.github.repository_name }}</div>
+        <div class="header-text">{{ site.description | default: site.github.project_tagline }}</div>
+    </a>
+    <nav class="navigation">
+        <a href="{{ site.url }}/archive" title="archive">归档</a>
+        <a href="{{ site.url }}/tags" title="tags">标签</a>
+        <a href="{{ site.url }}/about" title="about">关于</a>
+    </nav>
+</header>
